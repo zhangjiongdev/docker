@@ -1,6 +1,6 @@
 设置私有registry镜像地址（当网络无法访问公共镜像的时候）
 ```
-export privateregistry=54.189.172.225:5000
+export privateregistry=54.189.xxx.xxx:5000
 ```
 
 修改 docker pull 配置
