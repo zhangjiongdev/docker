@@ -12,8 +12,7 @@ sudo yum install -y yum-utils device-mapper-persistent-data lvm2
 安装 docker-ce-18.06.2
 ```
 sudo yum -y install docker-ce-18.06.2.ce-3.el7 docker-ce-cli-18.06.2.ce-3.el7
-systemctl start docker && systemctl enable docker
-docker --version
+systemctl start docker && systemctl enable docker && docker --version
 ```
 选这个版本的docker的原因：https://kubernetes.io/docs/setup/production-environment/container-runtimes/#docker
 
