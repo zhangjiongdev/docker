@@ -1,7 +1,7 @@
 yum 加速
 ```
 curl -o /etc/yum.repos.d/docker-ce.repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
-yum clean all && yum makecache fast
+yum makecache fast
 ```
 
 安装docker 依赖组件
