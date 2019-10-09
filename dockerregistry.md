@@ -54,7 +54,7 @@ docker tag $privateregistry/coredns:1.6.2 localhost:5000/coredns:1.6.2
 docker tag $privateregistry/cni:v3.8.2 localhost:5000/cni:v3.8.2
 docker tag $privateregistry/pod2daemon-flexvol:v3.8.2 localhost:5000/pod2daemon-flexvol:v3.8.2
 docker tag $privateregistry/kube-controllers:v3.8.2 localhost:5000/kube-controllers:v3.8.2
-docker tag $privateregistr/node:v3.8.2 localhost:5000/node:v3.8.2
+docker tag $privateregistry/node:v3.8.2 localhost:5000/node:v3.8.2
 
 
 docker push localhost:5000/kube-apiserver:v1.16.0
