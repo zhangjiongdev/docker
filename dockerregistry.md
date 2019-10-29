@@ -1,21 +1,4 @@
-设置私有registry镜像地址（当网络无法访问公共镜像的时候）
-```
-export privateregistry=54.189.xxx.xxx:5000
-```
 
-修改 docker pull 配置
-```
-cat > /etc/docker/daemon.json << EOF
-{
-    "bip": "172.31.0.1/16",
-    "insecure-registries": [
-        "$privateregistry"
-    ]
-}
-EOF
-
-systemctl daemon-reload && systemctl restart docker
-```
 
 启动 registry
 ```
